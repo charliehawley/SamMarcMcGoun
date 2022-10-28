@@ -5,3 +5,6 @@
     color: #000 !important;
 }
 
+.border-grey {
+    border: 1px solid #bbb;
+}
