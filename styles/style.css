@@ -19,3 +19,33 @@
     font-size: 1.3rem;
     font-style: medium;
 }
+
+.current {
+    /* text-decoration: underline; */
+    color: #999 !important;
+}
+
+/* ---------------------------------body------------------------------------- */
+
+.body-icon {
+    font-size: 1.2rem;
+}
+
+/* ---------------------------------home------------------------------------- */
+
+#home {
+    box-shadow: #bbb 0px 20px 40px;
+}
+
+/* ---------------------------------bio/contact------------------------------ */
+
+#bio {
+    margin: auto;
+    text-align: left;
+    width: 70vw;
+}
+
+.contact {
+    text-align: center;
+    display: inline;
+}
