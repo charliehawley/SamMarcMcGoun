@@ -5,6 +5,17 @@
     color: #000 !important;
 }
 
+
+/* ---------------------------------navbar----------------------------------- */
 .border-grey {
     border: 1px solid #bbb;
+}
+
+.navbar-list {
+    flex-grow: 0;
+}
+
+.sam-logo {
+    font-size: 1.3rem;
+    font-style: medium;
 }
