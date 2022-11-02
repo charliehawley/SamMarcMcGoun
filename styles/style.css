@@ -34,6 +34,7 @@
 /* ---------------------------------home------------------------------------- */
 
 #home {
+    height: 75vh;
     box-shadow: #bbb 0px 20px 40px;
 }
 
@@ -42,10 +43,12 @@
 #bio {
     margin: auto;
     text-align: left;
-    width: 70vw;
+    width: 60vw;
+    font-size: 0.75rem;
 }
 
 .contact {
     text-align: center;
     display: inline;
+    font-size: 0.75rem;
 }
