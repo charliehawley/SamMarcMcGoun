@@ -3,6 +3,7 @@
 * {
     font-family: quicksand, sans-serif;
     color: #000 !important;
+    background-color: #ccc !important;
 }
 
 
@@ -38,12 +39,28 @@
     box-shadow: #bbb 0px 20px 40px;
 }
 
+
+/* ---------------------------------paintings------------------------------ */
+
+.scroll-image {
+    margin: auto;
+    height: 80vh;
+}
+
+.carouselHeight {
+    height: 80vh;
+}
+
+.cImg {
+    height: 50% !important;
+}
+
 /* ---------------------------------bio/contact------------------------------ */
 
 #bio {
     margin: auto;
     text-align: left;
-    width: 60vw;
+    width: 50vw;
     font-size: 0.75rem;
 }
 
