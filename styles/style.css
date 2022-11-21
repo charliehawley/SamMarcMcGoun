@@ -1,15 +1,16 @@
-@import url("https://use.typekit.net/qbp0dwy.css");
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=PT+Sans+Caption&display=swap');
 
 * {
-    font-family: quicksand, sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
     color: #000 !important;
-    background-color: #ccc !important;
+    background-color: #ddd !important;
+    scroll-behavior: smooth;
 }
 
 
 /* ---------------------------------navbar----------------------------------- */
 .border-grey {
-    border: 1px solid #bbb;
+    border: 1px solid #999;
 }
 
 .navbar-list {
@@ -34,9 +35,9 @@
 
 /* ---------------------------------home------------------------------------- */
 
-#home {
+.shadow {
     height: 75vh;
-    box-shadow: #bbb 0px 20px 40px;
+    box-shadow: #777 0px 20px 40px;
 }
 
 
@@ -45,6 +46,7 @@
 .scroll-image {
     margin: auto;
     height: 80vh;
+    scroll-snap-align: center;
 }
 
 .carouselHeight {
@@ -53,6 +55,10 @@
 
 .cImg {
     height: 50% !important;
+}
+
+.snapper {
+    scroll-snap-type: y mandatory;
 }
 
 /* ---------------------------------bio/contact------------------------------ */
