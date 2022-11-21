@@ -14,8 +14,8 @@
 
 <body>
     <!------------ Responsive navbar------------>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
+    <nav class="navbar navbar-sam navbar-expand-lg">
+        <div class="container navbar-sam-int">
             <a class="navbar-brand sam-logo" href="index.html">Sam Marc McGoun</a>
 
             <button class="navbar-toggler border-grey align-center" type="button" data-bs-toggle="collapse"
@@ -24,20 +24,26 @@
                 <i class="fa-solid fa-bars"></i>
             </button>
 
-            <div class="collapse navbar-collapse navbar-list" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse navbar-list navbar-sam-int"
+            id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="paintings.html">
+                        <a class="nav-link nav-pad" aria-current="page" href="paintings.html">
                             Paintings
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="paper.html">
+                        <a class="nav-link nav-pad" aria-current="page" href="paper.html">
                             Works on paper
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link current" aria-current="page" href="contact.html">
+                        <a class="nav-link nav-pad" aria-current="page" href="cv.html">
+                            CV
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-pad current" aria-current="page" href="contact.html">
                             Bio & Contact
                         </a>
                     </li>
@@ -46,7 +52,7 @@
         </div>
     </nav>
     <!------------ Page content------------>
-    <div class="container">
+    <div class="container body-space
         <div class="text-center mt-5">
             <h4>Bio</h4>
             <p id="bio">
@@ -71,9 +77,9 @@
             <div>
                 <p class="contact mt-5 justify-content-center">
                     <i class="fa-regular fa-envelope body-icon m-2"></i> samuel.mcgoun@gmail.com
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <i class="fa-brands fa-instagram body-icon m-2"></i> 
-                    <a href="https://www.instagram.com/sammarcmcgoun/">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <a href="https://www.instagram.com/sammarcmcgoun/" target="_blank">
+                        <i class="fa-brands fa-instagram body-icon m-2"></i>
                         @sammarcmcgoun
                     </a>
                 </p>

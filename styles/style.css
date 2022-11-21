@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=PT+Sans+Caption&display=swap');
 
 * {
-    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Jost', sans-serif;
     color: #000 !important;
     background-color: #ddd !important;
     scroll-behavior: smooth;
@@ -17,6 +17,17 @@
     flex-grow: 0;
 }
 
+.navbar-sam {
+    height: 10%;
+    width: 100vw;
+    position: fixed;
+}
+
+.navbar-sam-int {
+    margin-left: 0;
+    flex-basis: content;
+}
+
 .sam-logo {
     font-size: 1.3rem;
     font-style: medium;
@@ -27,10 +38,20 @@
     color: #999 !important;
 }
 
+.nav-pad {
+    padding-left: 4rem !important;
+}
+
+
 /* ---------------------------------body------------------------------------- */
 
 .body-icon {
     font-size: 1.2rem;
+}
+
+.body-space {
+    padding-top: 10%;
+    text-align: center;
 }
 
 /* ---------------------------------home------------------------------------- */
@@ -65,7 +86,7 @@
 
 #bio {
     margin: auto;
-    text-align: left;
+    text-align: center;
     width: 50vw;
     font-size: 0.75rem;
 }
