@@ -56,10 +56,11 @@
 }
 
 .contents {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 200px;
     z-index: 0;
+    background-color: transparent !important;
 }
 
 #watercolours {
@@ -125,9 +126,14 @@
     }
   }
 
-@media (max-width: 600px) {  
+@media (max-width: 700px) {  
     .scroll-image {
         width: 60vw;
         height: auto;
+    }
+
+    .contents {
+        /* visibility: hidden; */
+        display: none;
     }
   }
