@@ -133,7 +133,6 @@
     }
 
     .contents {
-        /* visibility: hidden; */
         display: none;
     }
   }
