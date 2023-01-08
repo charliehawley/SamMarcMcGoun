@@ -21,6 +21,7 @@
     height: 10%;
     width: 100vw;
     position: fixed;
+    z-index: 1;
 }
 
 .navbar-sam-int {
@@ -54,6 +55,17 @@
     text-align: center;
 }
 
+.contents {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    z-index: 0;
+}
+
+#watercolours {
+    height: 100vh;
+}
+
 /* ---------------------------------home------------------------------------- */
 
 .shadow {
@@ -66,8 +78,16 @@
 
 .scroll-image {
     margin: auto;
-    height: 80vh;
+    height: 70vh;
     scroll-snap-align: center;
+}
+
+.painting {
+    padding-top: 100px;
+}
+
+.t-painting {
+    padding-top: none;
 }
 
 .carouselHeight {
@@ -96,3 +116,18 @@
     display: inline;
     font-size: 0.75rem;
 }
+
+/*------------------------------media queries------------------------------*/
+
+@media (max-width: 930px) {  
+    .t-painting {
+        padding-top: 10vh;
+    }
+  }
+
+@media (max-width: 600px) {  
+    .scroll-image {
+        width: 60vw;
+        height: auto;
+    }
+  }
