@@ -7,6 +7,9 @@
     scroll-behavior: smooth;
 }
 
+ul {
+    list-style-type: none;
+  }
 
 /* ---------------------------------navbar----------------------------------- */
 .border-grey {
@@ -50,8 +53,13 @@
     font-size: 1.2rem;
 }
 
+#index-space {
+    padding-top: 8%;
+    text-align: center;
+}
+
 .body-space {
-    padding-top: 10%;
+    padding-top: 7%;
     text-align: center;
 }
 
@@ -84,7 +92,7 @@
 }
 
 .painting {
-    padding-top: 100px;
+    padding-top: 5vh;
 }
 
 .t-painting {
@@ -103,30 +111,84 @@
     scroll-snap-type: y mandatory;
 }
 
+.dates {
+    display: none;
+}
+
 /* ---------------------------------bio/contact------------------------------ */
+
+#drawings {
+    display: inline;
+}
+
+/* ---------------------------------bio/contact------------------------------ */
+
+.titles {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 35vw;
+    margin: auto;
+    padding-bottom: 1rem;
+}
 
 #bio {
     margin: auto;
     text-align: center;
-    width: 50vw;
-    font-size: 0.75rem;
+    width: 35vw;
+    font-size: 0.9rem;
 }
 
-.contact {
-    text-align: center;
+#contact {
+    text-align: left;
     display: inline;
     font-size: 0.75rem;
+    width: 35vw;
+}
+
+/*------------------------------------cv-----------------------------------*/
+
+/* #cv {
+    width: 50vw;
+    height: 50vw;
+} */
+
+#cv {
+    margin: auto;
+    text-align:end;
+    width: 40vw;
+    font-size: 0.9rem;
 }
 
 /*------------------------------media queries------------------------------*/
 
 @media (max-width: 930px) {  
+    #bio {
+        width: 80%;
+    }
+
+    #cv {
+        width: 80%;
+    }
+
+    #index-space {
+        padding-top: 15%;
+    }
+
+    #index-space > img {
+        width: 50vw;
+        height: auto;
+    }
+    
     .t-painting {
-        padding-top: 10vh;
+        padding-top: 15vh;
     }
   }
 
 @media (max-width: 700px) {  
+    #index-space {
+        padding-top: 25%;
+    }
+
     .scroll-image {
         width: 60vw;
         height: auto;
@@ -134,5 +196,10 @@
 
     .contents {
         display: none;
+    }
+  }
+@media (max-width: 470px) {
+    .body-space {
+        padding-top: 20%;
     }
   }
