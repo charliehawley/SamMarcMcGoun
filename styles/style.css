@@ -22,7 +22,7 @@ ul {
 
 .navbar-sam {
     height: 10%;
-    width: 100vw;
+    width: 100%;
     position: fixed;
     z-index: 1;
 }
@@ -63,6 +63,11 @@ ul {
     text-align: center;
 }
 
+
+#title-space {
+    padding-top: none;
+}
+
 .contents {
     position: fixed;
     left: 0;
@@ -92,11 +97,11 @@ ul {
 }
 
 .painting {
-    padding-top: 5vh;
+    padding-bottom: 40px;
 }
 
 .t-painting {
-    padding-top: none;
+    padding: 10px 0 50px 0;
 }
 
 .carouselHeight {
@@ -180,7 +185,7 @@ ul {
     }
     
     .t-painting {
-        padding-top: 15vh;
+        padding: 15px 0 50px 0;
     }
   }
 
@@ -197,9 +202,21 @@ ul {
     .contents {
         display: none;
     }
+    
+    .t-painting {
+        padding: 20px 0 50px 0;
+    }
+    
+    #title-space {
+        padding-top: 70px;
+    }
   }
 @media (max-width: 470px) {
     .body-space {
         padding-top: 20%;
+    }
+
+    .t-painting {
+        padding: 15px 0 50px 0;
     }
   }
