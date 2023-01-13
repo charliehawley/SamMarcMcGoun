@@ -92,7 +92,7 @@ ul {
 
 .scroll-image {
     margin: auto;
-    height: 70vh;
+    height: 80vh;
     scroll-snap-align: center;
 }
 
