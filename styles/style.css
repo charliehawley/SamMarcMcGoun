@@ -124,6 +124,10 @@ h1 {
     display: none;
 }
 
+.p-desc{
+    margin: 20px 0px 30px 0px;
+}
+
 /* ---------------------------------bio/contact------------------------------ */
 
 /* #drawings {
